@@ -1,5 +1,5 @@
 import streamlit as st
-from components import search_by_image, show_clusters, plot_2d_space
+from components import search_by_image, show_clusters
 from components.filters import get_filters
 
 st.set_page_config(page_title="Visualizador de Recomendaciones", layout="wide")

@@ -134,7 +134,7 @@ def run(filters):
                     )
                 
                 if recommended_movies_list:
-                    st.subheader(f"🎯 Películas Similares ({len(recommended_movies_list)} encontradas post-filtros):")
+                    st.subheader(f" Películas Similares ({len(recommended_movies_list)} encontradas post-filtros):")
                     num_display_cols = 5
                     max_recs_to_show = 10                    
                     cols = st.columns(num_display_cols)
