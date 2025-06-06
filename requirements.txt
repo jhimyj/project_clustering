@@ -1,3 +1,7 @@
+# Core compatibility fix
+numpy==1.26.4  # Downgraded from 2.2.6 - critical fix!
+
+# Maintain your original versions except where specified
 altair==5.5.0
 asttokens==3.0.0
 attrs==25.3.0
@@ -36,7 +40,6 @@ matplotlib-inline==0.1.7
 narwhals==1.41.0
 nest-asyncio==1.6.0
 networkx==3.5
-numpy==2.2.6
 opencv-python==4.11.0.86
 packaging==24.2
 pandas==2.2.3
